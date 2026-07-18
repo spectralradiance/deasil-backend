@@ -1,0 +1,13 @@
+{
+  "name": "sanity-plugin-sync-notion",
+  "version": "1.0.0",
+  "description": "Sync content from Notion to Sanity",
+  "main": "src/index.ts",
+  "author": "GitHub Copilot",
+  "license": "MIT",
+  "dependencies": {
+    "@sanity/ui": "^2.1.8",
+    "react": "^19.1",
+    "styled-components": "^6.1.18"
+  }
+}

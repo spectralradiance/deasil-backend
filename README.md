@@ -1,4 +1,20 @@
-# Sanity Blogging Content Studio
+# Deasil-Sanity
+
+Back-end for deasil.org built with Sanity.
+
+## Features
+
+- Sync photos from Smugmug, including metadata.
+
+
+
+
+
+
+
+
+------
+
 
 Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
 
@@ -9,3 +25,5 @@ Now you can do the following things:
 - [Read the blog post about this template](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=readme)
 - [Join the Sanity community](https://www.sanity.io/community/join?utm_source=readme)
 - [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+
+

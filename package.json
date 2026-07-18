@@ -9,16 +9,23 @@
     "start": "sanity start",
     "build": "sanity build",
     "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy"
+    "deploy-graphql": "sanity graphql deploy",
+    "smugmug-auth": "npx tsx scripts/smugmugAuth.ts",
+    "smugmug-sync": "npx tsx scripts/smugmugSync.ts"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/vision": "^4.20.1",
+    "@notionhq/client": "^5.13.0",
+    "@sanity/vision": "^4.22.0",
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "notion-to-md": "^3.1.9",
     "react": "^19.1",
     "react-dom": "^19.1",
-    "sanity": "^4.20.1",
+    "sanity": "^4.22.0",
+    "smugmug-api": "^0.0.2",
     "styled-components": "^6.1.18"
   },
   "devDependencies": {
@@ -26,6 +33,7 @@
     "@types/react": "^19.1",
     "eslint": "^9.28",
     "prettier": "^3.5",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8"
   },
   "prettier": {
@@ -33,5 +41,8 @@
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
+  },
+  "overrides": {
+    "undici": "7.18.2"
   }
 }
